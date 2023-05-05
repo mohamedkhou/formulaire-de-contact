@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Formulaire de prise de note</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="box">
+        <h1>Formulaire de prise de contact</h1>
+        <p>Bonjour HERO, merci pour ton intérêt. Nous avons hâte de discuter avec toi! Les informations que tu
+            partageras avec nous seront traités pour pouvoir rentrer en contact avec toi, ainsi t'aider à faire le
+            meilleur choix de carrière, nos Advisors sont là pour vous aider à decider.</p>
+        <form action="contact">
+            <div>
+                <label for="name">Nom et prénom:<span>*</span></label>
+                <input type="text" name="name" id="name" class="case">
+            </div>
+            <div>
+                <label for="age">Age:<span>*</span></label>
+                <input type="number" name="age" id="age" class="case">
+            </div>
+            <div>
+                <label for="mail">Adresse email: <span>*</span></label>
+                <input type="" name="email" id="mail" class="case">
+            </div>
+            <div>
+                <label for="phone">Numéro de télephone:<span>*</span></label>
+                <input type="tel" name="phone" id="phone" class="case">
+            </div>
+            <div>
+                <label for="situation">Votre situation actuelle:<span>*</span></label>
+                <select name="situation" id="situation" class="case">
+                    <option value="partiel" class="choise">Employé à temps partiel</option>
+                    <option value="plein" class="choise">Employé à temps plein</option>
+                    <option value="sansp">Sans Emploie</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="city">Votre ville de résidence:<span>*</span></label>
+                <select name="city" id="city" class="case">
+                    <option value="bac" class="choise">Casablanca</option>
+                    <option value="Sansbac" class="choise">Rabat</option>
+                </select>
+            </div>
+            <div>
+                <label for="nfrench">Quel est votre niveau de maitrise de la langue française?<span>*</span></label>
+                <select name="nfrench" id="nfrench" class="case">
+                    <option value="starter" class="choise">débutat</option>
+                    <option value="advanced" class="choise">avancer</option>
+                </select>
+            </div>
+            <div>
+                <label for="why">Pourquoi souhaitez-vous rejoindre la 3W Academy?<span>*</span></label>
+                <select name="why" id="why" class="case">
+                    <option value="switch">Je veux switcher</option>
+                    <option value="begin">Commencer une nouvelle carrière</option>
+                </select>
+            </div>
+            <div>
+                <label for="bootcamp">Bootcamp souhaité:<span>*</span></label>
+                <select name="bootcamp" id="bootcamp" class="case">
+                    <option value="start" class="choise">START</option>
+                </select>
+            </div>
+            <div>
+                <label for="tempo">Rythme souhaité:<span>*</span></label>
+                <select name="tempo" id="tempo" class="case">
+                    <option value="full_time" class="choise">Temps plein</option>
+                </select>
+            </div>
+            <div>
+                <label for="campus">Campus souhaité:<span>*</span></label>
+                <select name="campus" id="campus" class="case">
+                    <option value="Casablanca" class="choise">Casablanca - tour Habuos</option>
+                </select>
+            </div>
+            <div>
+                <label for="notoriété">Comment avez-vous connu la 3w academy?<span>*</span></label>
+                <select name="notoriété" id="notoriété" class="case">
+                    <option value="par un ami / une connaissance" class="choise"></option>
+                    <option value="re-so" class="choise">Réseaux sociaux</option>
+                </select>
+            </div>
+
+            <div>
+                <input type="checkbox" name="terms" id="termes" class="checkbox">J'accepte les termes et conditions
+            </div>
+
+
+            <button type="submit" id="btn">Validé</button>
+
+
+
+        </form>
+</body>
+
+</html>
